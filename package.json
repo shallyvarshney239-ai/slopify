@@ -1,0 +1,13 @@
+{
+  "name": "slopify",
+  "version": "1.0.0",
+  "description": "Slopify — cognitive engagement analysis for code review (Team Avenger)",
+  "author": "Team Avenger",
+  "private": true,
+  "homepage": "https://slopify-delta.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shallyvarshney239-ai/slopify"
+  },
+  "license": "MIT"
+}
