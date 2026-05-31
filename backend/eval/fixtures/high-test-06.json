@@ -1,0 +1,62 @@
+{
+  "id": "high-test-06",
+  "repo": "synthetic/slopify-eval",
+  "sha": "high-tes",
+  "message": "Add regression tests for auth edge case #106",
+  "diff": {
+    "files_changed": [
+      {
+        "path": "src/f0.py",
+        "additions": 8,
+        "deletions": 0,
+        "is_test": true,
+        "is_rename": false
+      },
+      {
+        "path": "src/f1.py",
+        "additions": 8,
+        "deletions": 0,
+        "is_test": true,
+        "is_rename": false
+      },
+      {
+        "path": "src/f2.py",
+        "additions": 8,
+        "deletions": 0,
+        "is_test": true,
+        "is_rename": false
+      },
+      {
+        "path": "src/f3.py",
+        "additions": 8,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": false
+      },
+      {
+        "path": "src/f4.py",
+        "additions": 8,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": false
+      }
+    ],
+    "files_changed_count": 5,
+    "total_additions": 40,
+    "total_deletions": 5,
+    "test_files_changed": 3,
+    "rename_count": 0,
+    "comment_lines_added": 4,
+    "bulk_insertion_detected": false,
+    "raw_patch_sample": "describe('auth') expect(true) assert"
+  },
+  "semantic_novelty": 0.55,
+  "message_quality_hint": 0.75,
+  "ground_truth": {
+    "engagement": "high",
+    "flags": [
+      "test_driven"
+    ]
+  },
+  "notes": "Tests dominate the diff; specific message."
+}
