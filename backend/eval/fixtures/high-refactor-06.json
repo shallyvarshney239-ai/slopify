@@ -1,0 +1,55 @@
+{
+  "id": "high-refactor-06",
+  "repo": "synthetic/slopify-eval",
+  "sha": "high-ref",
+  "message": "Rename payment module namespaces (closes #206)",
+  "diff": {
+    "files_changed": [
+      {
+        "path": "src/f0.py",
+        "additions": 8,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": true
+      },
+      {
+        "path": "src/f1.py",
+        "additions": 8,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": true
+      },
+      {
+        "path": "src/f2.py",
+        "additions": 8,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": true
+      },
+      {
+        "path": "src/f3.py",
+        "additions": 8,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": true
+      }
+    ],
+    "files_changed_count": 4,
+    "total_additions": 35,
+    "total_deletions": 30,
+    "test_files_changed": 0,
+    "rename_count": 4,
+    "comment_lines_added": 6,
+    "bulk_insertion_detected": false,
+    "raw_patch_sample": "rename module export class"
+  },
+  "semantic_novelty": 0.65,
+  "message_quality_hint": 0.8,
+  "ground_truth": {
+    "engagement": "high",
+    "flags": [
+      "deep_refactor"
+    ]
+  },
+  "notes": "Structural renames indicate comprehension."
+}
