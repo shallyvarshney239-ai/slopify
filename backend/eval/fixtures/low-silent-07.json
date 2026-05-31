@@ -1,0 +1,34 @@
+{
+  "id": "low-silent-07",
+  "repo": "synthetic/slopify-eval",
+  "sha": "low-sile",
+  "message": "refactor",
+  "diff": {
+    "files_changed": [
+      {
+        "path": "src/f0.py",
+        "additions": 25,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": false
+      }
+    ],
+    "files_changed_count": 1,
+    "total_additions": 25,
+    "total_deletions": 3,
+    "test_files_changed": 0,
+    "rename_count": 0,
+    "comment_lines_added": 0,
+    "bulk_insertion_detected": false,
+    "raw_patch_sample": "small tweak"
+  },
+  "semantic_novelty": 0.3,
+  "message_quality_hint": 0.1,
+  "ground_truth": {
+    "engagement": "low",
+    "flags": [
+      "silent_commit"
+    ]
+  },
+  "notes": "Generic message 'refactor' with no explanatory detail."
+}

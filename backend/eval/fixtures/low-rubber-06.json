@@ -1,0 +1,35 @@
+{
+  "id": "low-rubber-06",
+  "repo": "synthetic/slopify-eval",
+  "sha": "low-rubb",
+  "message": "fix",
+  "diff": {
+    "files_changed": [
+      {
+        "path": "src/f0.py",
+        "additions": 150,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": false
+      }
+    ],
+    "files_changed_count": 1,
+    "total_additions": 150,
+    "total_deletions": 0,
+    "test_files_changed": 0,
+    "rename_count": 0,
+    "comment_lines_added": 0,
+    "bulk_insertion_detected": true,
+    "raw_patch_sample": "x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x "
+  },
+  "semantic_novelty": 0.1,
+  "message_quality_hint": 0.0,
+  "ground_truth": {
+    "engagement": "low",
+    "flags": [
+      "rubber_stamp",
+      "paste_and_pray"
+    ]
+  },
+  "notes": "Large low-signal paste typical of unreviewed AI output."
+}
