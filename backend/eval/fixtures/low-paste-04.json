@@ -1,0 +1,49 @@
+{
+  "id": "low-paste-04",
+  "repo": "synthetic/slopify-eval",
+  "sha": "low-past",
+  "message": "update",
+  "diff": {
+    "files_changed": [
+      {
+        "path": "src/f0.py",
+        "additions": 46,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": false
+      },
+      {
+        "path": "src/f1.py",
+        "additions": 46,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": false
+      },
+      {
+        "path": "src/f2.py",
+        "additions": 46,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": false
+      }
+    ],
+    "files_changed_count": 3,
+    "total_additions": 140,
+    "total_deletions": 1,
+    "test_files_changed": 0,
+    "rename_count": 0,
+    "comment_lines_added": 0,
+    "bulk_insertion_detected": true,
+    "raw_patch_sample": "const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; const x = 1; "
+  },
+  "semantic_novelty": 0.15,
+  "message_quality_hint": 0.05,
+  "ground_truth": {
+    "engagement": "low",
+    "flags": [
+      "paste_and_pray",
+      "test_desert"
+    ]
+  },
+  "notes": "Bulk addition with no tests and generic message."
+}
