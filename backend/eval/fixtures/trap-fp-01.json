@@ -1,0 +1,39 @@
+{
+  "id": "trap-fp-01",
+  "repo": "synthetic/slopify-eval",
+  "sha": "trap-fp-",
+  "message": "Ship large feature flag rollout without unit tests (manual QA only)",
+  "diff": {
+    "files_changed": [
+      {
+        "path": "src/f0.py",
+        "additions": 45,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": false
+      },
+      {
+        "path": "src/f1.py",
+        "additions": 45,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": false
+      }
+    ],
+    "files_changed_count": 2,
+    "total_additions": 90,
+    "total_deletions": 5,
+    "test_files_changed": 0,
+    "rename_count": 0,
+    "comment_lines_added": 0,
+    "bulk_insertion_detected": false,
+    "raw_patch_sample": "feature flag rollout config"
+  },
+  "semantic_novelty": 0.5,
+  "message_quality_hint": 0.5,
+  "ground_truth": {
+    "engagement": "high",
+    "flags": []
+  },
+  "notes": "Legitimate large feature; human-reviewed but no tests \u2014 common FP."
+}

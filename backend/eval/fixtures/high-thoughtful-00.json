@@ -1,0 +1,39 @@
+{
+  "id": "high-thoughtful-00",
+  "repo": "synthetic/slopify-eval",
+  "sha": "high-tho",
+  "message": "Handle timeout in worker pool when queue depth exceeds 50",
+  "diff": {
+    "files_changed": [
+      {
+        "path": "src/f0.py",
+        "additions": 11,
+        "deletions": 0,
+        "is_test": true,
+        "is_rename": false
+      },
+      {
+        "path": "src/f1.py",
+        "additions": 11,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": false
+      }
+    ],
+    "files_changed_count": 2,
+    "total_additions": 22,
+    "total_deletions": 8,
+    "test_files_changed": 1,
+    "rename_count": 0,
+    "comment_lines_added": 5,
+    "bulk_insertion_detected": false,
+    "raw_patch_sample": "timeout queue worker retry"
+  },
+  "semantic_novelty": 0.6,
+  "message_quality_hint": 0.7,
+  "ground_truth": {
+    "engagement": "high",
+    "flags": []
+  },
+  "notes": "Specific intent, tests, and comments."
+}

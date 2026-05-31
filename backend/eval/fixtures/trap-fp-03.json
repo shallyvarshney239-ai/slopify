@@ -1,0 +1,32 @@
+{
+  "id": "trap-fp-03",
+  "repo": "synthetic/slopify-eval",
+  "sha": "trap-fp-",
+  "message": "fix",
+  "diff": {
+    "files_changed": [
+      {
+        "path": "src/f0.py",
+        "additions": 8,
+        "deletions": 0,
+        "is_test": true,
+        "is_rename": false
+      }
+    ],
+    "files_changed_count": 1,
+    "total_additions": 8,
+    "total_deletions": 1,
+    "test_files_changed": 1,
+    "rename_count": 0,
+    "comment_lines_added": 0,
+    "bulk_insertion_detected": false,
+    "raw_patch_sample": "one line fix"
+  },
+  "semantic_novelty": 0.5,
+  "message_quality_hint": 0.5,
+  "ground_truth": {
+    "engagement": "high",
+    "flags": []
+  },
+  "notes": "Short message but tiny tested fix \u2014 message misleading."
+}

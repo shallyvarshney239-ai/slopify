@@ -1,0 +1,69 @@
+{
+  "id": "trap-fp-02",
+  "repo": "synthetic/slopify-eval",
+  "sha": "trap-fp-",
+  "message": "Migrate config schema v2 to v3 across services",
+  "diff": {
+    "files_changed": [
+      {
+        "path": "src/f0.py",
+        "additions": 11,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": true
+      },
+      {
+        "path": "src/f1.py",
+        "additions": 11,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": true
+      },
+      {
+        "path": "src/f2.py",
+        "additions": 11,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": false
+      },
+      {
+        "path": "src/f3.py",
+        "additions": 11,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": false
+      },
+      {
+        "path": "src/f4.py",
+        "additions": 11,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": false
+      },
+      {
+        "path": "src/f5.py",
+        "additions": 11,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": false
+      }
+    ],
+    "files_changed_count": 6,
+    "total_additions": 70,
+    "total_deletions": 60,
+    "test_files_changed": 0,
+    "rename_count": 2,
+    "comment_lines_added": 0,
+    "bulk_insertion_detected": false,
+    "raw_patch_sample": "schema migration version"
+  },
+  "semantic_novelty": 0.5,
+  "message_quality_hint": 0.5,
+  "ground_truth": {
+    "engagement": "high",
+    "flags": [
+      "deep_refactor"
+    ]
+  },
+  "notes": "Big diff but structural migration."
+}

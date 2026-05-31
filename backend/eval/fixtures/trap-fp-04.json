@@ -1,0 +1,32 @@
+{
+  "id": "trap-fp-04",
+  "repo": "synthetic/slopify-eval",
+  "sha": "trap-fp-",
+  "message": "Update dependencies and lockfile",
+  "diff": {
+    "files_changed": [
+      {
+        "path": "src/f0.py",
+        "additions": 200,
+        "deletions": 0,
+        "is_test": false,
+        "is_rename": false
+      }
+    ],
+    "files_changed_count": 1,
+    "total_additions": 200,
+    "total_deletions": 180,
+    "test_files_changed": 0,
+    "rename_count": 0,
+    "comment_lines_added": 0,
+    "bulk_insertion_detected": false,
+    "raw_patch_sample": "package lock version bump"
+  },
+  "semantic_novelty": 0.5,
+  "message_quality_hint": 0.5,
+  "ground_truth": {
+    "engagement": "high",
+    "flags": []
+  },
+  "notes": "Large line count but mechanical dependency bump."
+}
